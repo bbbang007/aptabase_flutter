@@ -12,8 +12,14 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  package_info_plus: ^8.0.0
-  device_info_plus: ^10.1.0
+  package_info_plus: 
+    git:
+      url: https://gitee.com/openharmony-sig/flutter_plus_plugins
+      path: packages/package_info_plus/package_info_plus
+  device_info_plus:
+    git:
+      url: https://gitcode.com/openharmony-sig/flutter_plus_plugins
+      path: packages/device_info_plus/device_info_plus
   universal_io: ^2.2.2
   shared_preferences: ^2.3.3
 
