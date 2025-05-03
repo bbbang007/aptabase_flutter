@@ -21,7 +21,10 @@ dependencies:
       url: https://gitcode.com/openharmony-sig/flutter_plus_plugins
       path: packages/device_info_plus/device_info_plus
   universal_io: ^2.2.2
-  shared_preferences: ^2.3.3
+  shared_preferences: 
+    git:
+      url: https://gitee.com/openharmony-sig/flutter_packages
+      path: packages/shared_preferences/shared_preferences
 
 dev_dependencies:
   flutter_test:
